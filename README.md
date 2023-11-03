@@ -1,4 +1,4 @@
-# flight-metrics-converter
+# flight-metrics-converter-python
 Gets kts, km/h, m/s, mach, ft, NM, km and m as input and returns conversations of it
 
 ## Requirements
