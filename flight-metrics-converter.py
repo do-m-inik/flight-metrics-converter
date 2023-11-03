@@ -30,7 +30,7 @@ def main():
     parser.add_argument('--nm', metavar="NAUTICAL_MILES", type=float, help="Distance in nautical miles")
     parser.add_argument('--ft', metavar="FOOT", type=float, help="Distance in foot")
     parser.add_argument('--km', metavar="KILOMETERS", type=float, help="Distance in kilometers")
-    parser.add_argument('--m', metavar="KILOMETERS", type=float, help="Distance in meters")
+    parser.add_argument('--m', metavar="METERS", type=float, help="Distance in meters")
 
     if len(sys.argv) != 3:
         parser.print_help(sys.stderr)
